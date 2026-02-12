@@ -1,0 +1,133 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    margin:30px 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact{
+    margin:20px  35px;
+}
+.icons{
+    margin: 20px 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-item{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    margin-bottom: 20px;
+}
+
+.icon-item i{
+    font-size: 22px;
+}
+.text{
+    margin: 20px 35px;
+    color: gray;
+}
+.logos{
+    display: flex;
+    gap:40px;
+    margin: 25px 35px;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.rating {
+    margin:25px 30px;
+    font-size: 14px;
+    color: white;
+}
+.rating span{
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+}
+
+.col-1{
+    background-color: rgb(19, 17, 17);
+    flex: 1;
+    color: white;
+}
+
+.col-2{
+    background-color: white;
+    flex: 1;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    width: 420px;
+}
+.form-title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.form-subtitle{
+    color: gray;
+    margin-bottom: 30px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.next-btn{
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border-radius:25px ;
+    border: none;
+    cursor: pointer;
+}
+.next-btn:hover{
+    opacity: 0.85;
+}
+.steps{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+.step{
+    width: 60px;
+    height: 4px;
+    background: #ccc;
+    border-radius:5px;
+}
+.step.active{
+    background: black;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
